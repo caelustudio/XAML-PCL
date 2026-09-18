@@ -1,0 +1,138 @@
+<local:MyCard Title="Caelus Studio" Margin="0,0,0,15" CanSwap="True" IsSwapped="False">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,6" FontSize="18" FontWeight="Bold"
+                    Text="Begin With Design, Believe In Design." />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,12" Foreground="#8C7721"
+                    Text="始于设计，忠于设计。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontWeight="Bold"
+                    Text="一切皆由 PowerPoint 打造。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,12"
+                    Text="我们相信，PowerPoint 能打造一切。从 PPT 系统到 PPT 动画，PPT 能打造的东西数不胜数。设计，不只是活的，也可以是静的。静态界面设计、动态动画设计，不可缺一。" />
+        <local:MyButton Height="35" HorizontalAlignment="Left" Padding="25,0,25,0"
+                    ColorType="Highlight"
+                    Text="访问 Caelus Studio 官网"
+                    EventType="打开网页"
+                    EventData="https://www.caelus.top/" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="专业、丰富的设计" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,10"
+                    Text="我们有 2 年的设计经验，也创作出了许多作品，其中包含 XyangOS、StarOS、CaelusOS、星乐海集团账号服务。我们也懂得了：任何作品都值得反复深挖。" />
+        <local:MyHint Text="2 年设计经验 · 11 个作品 · ∞ 创意" />
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10,0,0">
+            <TextBlock Text="2" FontSize="30" FontWeight="Bold" Margin="20,0" Foreground="{DynamicResource ColorBrush2}" />
+            <TextBlock Text="11" FontSize="30" FontWeight="Bold" Margin="20,0" Foreground="{DynamicResource ColorBrush2}" />
+            <TextBlock Text="∞" FontSize="30" FontWeight="Bold" Margin="20,0" Foreground="{DynamicResource ColorBrush2}" />
+        </StackPanel>
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="下载作品" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,10"
+                    Text="以下是我们发布的一些 PPT 系统作品，点击右侧按钮即可前往下载页面。" />
+        <local:MyListItem Margin="-5,2,-5,8"
+                    Logo="pack://application:,,,/images/Blocks/CommandBlock.png"
+                    Title="StarOS" Info="PPT 系统 · 点击下载"
+                    EventType="打开网页" EventData="https://www.okteam.cn/store/work/24" Type="Clickable" />
+        <local:MyListItem Margin="-5,2,-5,8"
+                    Logo="pack://application:,,,/images/Blocks/Grass.png"
+                    Title="TreeOS" Info="PPT 系统 · 点击下载"
+                    EventType="打开网页" EventData="https://www.okteam.cn/store/work/36" Type="Clickable" />
+        <local:MyListItem Margin="-5,2,-5,8"
+                    Logo="pack://application:,,,/images/Blocks/RedstoneLampOn.png"
+                    Title="CaelusOS" Info="PPT 系统 · 点击下载"
+                    EventType="打开网页" EventData="https://github.com/caelustudio/CaelusOS" Type="Clickable" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="文件库" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,10"
+                    Text="我们基于飞书建立了公开文件库，欢迎查阅相关文档与资料。" />
+        <local:MyListItem Margin="-5,2,-5,8"
+                    Logo="pack://application:,,,/images/Blocks/GoldBlock.png"
+                    Title="Caelus Studio 文件库" Info="点击打开飞书文件库"
+                    EventType="打开网页" EventData="https://caelustudio.feishu.cn/wiki/space/7668877677914278860?ccm_open_type=lark_wiki_spaceLink&amp;open_tab_from=wiki_home" Type="Clickable" />
+        <local:MyListItem Margin="-5,2,-5,8"
+                    Logo="pack://application:,,,/images/Blocks/RedstoneLampOn.png"
+                    Title="CaelusOS 文件库" Info="点击打开飞书文件库"
+                    EventType="打开网页" EventData="https://caelustudio.feishu.cn/wiki/space/7668679549147728860?ccm_open_type=lark_wiki_spaceLink&amp;open_tab_from=wiki_home" Type="Clickable" />
+        <local:MyListItem Margin="-5,2,-5,8"
+                    Logo="pack://application:,,,/images/Blocks/Grass.png"
+                    Title="TreeOS 文件库" Info="点击打开飞书文件库"
+                    EventType="打开网页" EventData="https://caelustudio.feishu.cn/wiki/space/7672229743277690146?ccm_open_type=lark_wiki_spaceLink&amp;open_tab_from=wiki_home" Type="Clickable" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="价值观" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,10"
+                    Text="Caelus Studio 关注社会与环境议题，并以此作为工作室的长期价值准则。" />
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+            <local:MyButton Margin="5,0,5,0" Width="140" Height="35" ColorType="Highlight"
+                        Text="环保" EventType="打开网页" EventData="https://www.caelus.top/environment/" />
+            <local:MyButton Margin="5,0,5,0" Width="140" Height="35" ColorType="Highlight"
+                        Text="教育" EventType="打开网页" EventData="https://www.caelus.top/education/" />
+            <local:MyButton Margin="5,0,5,0" Width="140" Height="35" ColorType="Highlight"
+                        Text="隐私" EventType="打开网页" EventData="https://www.caelus.top/privacy/" />
+        </StackPanel>
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="友情链接" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
+    <StackPanel Margin="25,40,23,15">
+        <local:MyListItem Margin="-5,2,-5,8"
+                    Logo="pack://application:,,,/images/Blocks/Cobblestone.png"
+                    Title="OK Team" Info="点击访问 OK Team 官网"
+                    EventType="打开网页" EventData="https://www.okteam.cn/" Type="Clickable" />
+        <local:MyListItem Margin="-5,2,-5,8"
+                    Logo="pack://application:,,,/images/Blocks/Anvil.png"
+                    Title="GitSource" Info="点击访问 GitSource"
+                    EventType="打开网页" EventData="https://git.rivulet.org.cn/" Type="Clickable" />
+        <local:MyListItem Margin="-5,2,-5,8"
+                    Logo="pack://application:,,,/images/Blocks/Egg.png"
+                    Title="HiveMind Synergize" Info="点击访问 HiveMind Synergize"
+                    EventType="打开网页" EventData="https://hivemind.synergize.co/" Type="Clickable" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="联系方式" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,10"
+                    Text="如果你想与我们交流、反馈问题或合作洽谈，欢迎通过以下任意方式联系。" />
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*" />
+                <ColumnDefinition Width="1*" />
+                <ColumnDefinition Width="1*" />
+                <ColumnDefinition Width="1*" />
+            </Grid.ColumnDefinitions>
+            <local:MyButton Grid.Column="0" Margin="0,0,5,0" Height="35" ColorType="Highlight"
+                        Text="电子邮件" EventType="打开网页" EventData="mailto:hi@caelus.top" />
+            <local:MyButton Grid.Column="1" Margin="5,0,5,0" Height="35" ColorType="Highlight"
+                        Text="哔哩哔哩" EventType="打开网页" EventData="https://space.bilibili.com/502631018" />
+            <local:MyButton Grid.Column="2" Margin="5,0,5,0" Height="35" ColorType="Highlight"
+                        Text="X（推特）" EventType="打开网页" EventData="https://x.com/CaelusStudio" />
+            <local:MyButton Grid.Column="3" Margin="5,0,0,0" Height="35" ColorType="Highlight"
+                        Text="QQ" EventType="打开网页" EventData="https://qm.qq.com/q/xr13sRirZe" />
+        </Grid>
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="关于本主页" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,8" Foreground="#888"
+                    Text="©️ 2026 Caelus Studio." />
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+            <local:MyTextButton Margin="10,0,10,0" HorizontalAlignment="Center"
+                        Text="❤ 支持主页"
+                        EventType="打开网页" EventData="https://afdian.com/a/CaelusStudio" />
+            <local:MyTextButton Margin="10,0,10,0" HorizontalAlignment="Center"
+                        Text="⚖ GNU GPL v3"
+                        EventType="打开网页" EventData="https://www.gnu.org/licenses/gpl-3.0.html" />
+        </StackPanel>
+    </StackPanel>
+</local:MyCard>
